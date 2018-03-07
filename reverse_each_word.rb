@@ -7,3 +7,10 @@ def reverse_each_word(string)
   final = med.join(" ")
   final
 end
+
+def reverse_each_word(string)
+  arr = string.split(" ")
+  arr.collect do |a|
+    a.reverse
+  end
+end
