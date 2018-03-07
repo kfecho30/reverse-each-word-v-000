@@ -15,3 +15,6 @@ def reverse_each_word(string)
   end
   final.join(" ")
 end
+
+##Lab would not allow the collect! method to alter array in place,
+#but that would have been an easy way to get the same result.
