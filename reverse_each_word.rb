@@ -5,4 +5,5 @@ def reverse_each_word(string)
     med << a.reverse
   end
   final = med.join(" ")
+  final
 end
