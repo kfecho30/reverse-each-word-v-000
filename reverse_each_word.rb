@@ -13,5 +13,4 @@ def reverse_each_word(string)
   arr.collect do |a|
     a.reverse
   end
-  arr
 end
